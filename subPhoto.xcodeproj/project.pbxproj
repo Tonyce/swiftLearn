@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */; };
 		BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28621B3FD09400D65314 /* AppDelegate.swift */; };
 		BECE28651B3FD09400D65314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28641B3FD09400D65314 /* ViewController.swift */; };
 		BECE28681B3FD09400D65314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE28661B3FD09400D65314 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKProgressViewController.swift; sourceTree = "<group>"; };
 		BECE285F1B3FD09400D65314 /* subPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = subPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECE28621B3FD09400D65314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BECE28641B3FD09400D65314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				BECE28621B3FD09400D65314 /* AppDelegate.swift */,
 				BECE28641B3FD09400D65314 /* ViewController.swift */,
+				BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */,
 				BECE28661B3FD09400D65314 /* Main.storyboard */,
 				BECE28691B3FD09400D65314 /* Assets.xcassets */,
 				BECE286B1B3FD09400D65314 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
+				BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */,
 				BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				BECE28731B3FD09400D65314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="chR-eU-LZc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
@@ -125,16 +125,16 @@
                                 <exclude reference="o4I-hP-CDg"/>
                                 <exclude reference="oNK-iv-LCa"/>
                                 <exclude reference="twt-7b-jrP"/>
-                                <exclude reference="8xZ-ju-CrF"/>
-                                <exclude reference="ADb-Yk-z0C"/>
-                                <exclude reference="DJP-3S-hn3"/>
-                                <exclude reference="mpn-6N-25y"/>
                                 <exclude reference="38a-jY-Akn"/>
                                 <exclude reference="8mG-Qu-t60"/>
                                 <exclude reference="Cn7-kF-UVm"/>
                                 <exclude reference="G23-7Z-9DI"/>
                                 <exclude reference="J3h-3P-QeD"/>
                                 <exclude reference="knO-im-VaU"/>
+                                <exclude reference="8xZ-ju-CrF"/>
+                                <exclude reference="ADb-Yk-z0C"/>
+                                <exclude reference="DJP-3S-hn3"/>
+                                <exclude reference="mpn-6N-25y"/>
                             </mask>
                         </variation>
                     </view>
@@ -151,7 +151,27 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="325" y="399"/>
+            <point key="canvasLocation" x="118" y="300"/>
+        </scene>
+        <!--Progress View Controller-->
+        <scene sceneID="u5e-Mp-6yt">
+            <objects>
+                <viewController id="chR-eU-LZc" customClass="MKProgressViewController" customModule="subPhoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OsH-Pe-LfJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="UmS-sm-MUH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QqU-5A-4AH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gb4-8H-ua2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="504" y="399"/>
         </scene>
     </scenes>
     <resources>
