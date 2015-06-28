@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKProgressViewController.swift; sourceTree = "<group>"; };
-		BECE285F1B3FD09400D65314 /* subPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = subPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECE285F1B3FD09400D65314 /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECE28621B3FD09400D65314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BECE28641B3FD09400D65314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BECE28671B3FD09400D65314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		BECE28561B3FD09400D65314 = {
 			isa = PBXGroup;
 			children = (
-				BECE28611B3FD09400D65314 /* subPhoto */,
+				BECE28611B3FD09400D65314 /* swiftLearn */,
 				BECE28601B3FD09400D65314 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		BECE28601B3FD09400D65314 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BECE285F1B3FD09400D65314 /* subPhoto.app */,
+				BECE285F1B3FD09400D65314 /* swiftLearn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BECE28611B3FD09400D65314 /* subPhoto */ = {
+		BECE28611B3FD09400D65314 /* swiftLearn */ = {
 			isa = PBXGroup;
 			children = (
 				BECE28621B3FD09400D65314 /* AppDelegate.swift */,
@@ -64,15 +64,16 @@
 				BECE286B1B3FD09400D65314 /* LaunchScreen.storyboard */,
 				BECE286E1B3FD09400D65314 /* Info.plist */,
 			);
+			name = swiftLearn;
 			path = subPhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BECE285E1B3FD09400D65314 /* subPhoto */ = {
+		BECE285E1B3FD09400D65314 /* swiftLearn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BECE28711B3FD09400D65314 /* Build configuration list for PBXNativeTarget "subPhoto" */;
+			buildConfigurationList = BECE28711B3FD09400D65314 /* Build configuration list for PBXNativeTarget "swiftLearn" */;
 			buildPhases = (
 				BECE285B1B3FD09400D65314 /* Sources */,
 				BECE285C1B3FD09400D65314 /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = subPhoto;
+			name = swiftLearn;
 			productName = subPhoto;
-			productReference = BECE285F1B3FD09400D65314 /* subPhoto.app */;
+			productReference = BECE285F1B3FD09400D65314 /* swiftLearn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BECE285A1B3FD09400D65314 /* Build configuration list for PBXProject "subPhoto" */;
+			buildConfigurationList = BECE285A1B3FD09400D65314 /* Build configuration list for PBXProject "swiftLearn" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BECE285E1B3FD09400D65314 /* subPhoto */,
+				BECE285E1B3FD09400D65314 /* swiftLearn */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +255,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iweekapi.subPhoto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = swiftLearn;
 			};
 			name = Debug;
 		};
@@ -266,14 +267,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iweekapi.subPhoto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = swiftLearn;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BECE285A1B3FD09400D65314 /* Build configuration list for PBXProject "subPhoto" */ = {
+		BECE285A1B3FD09400D65314 /* Build configuration list for PBXProject "swiftLearn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BECE286F1B3FD09400D65314 /* Debug */,
@@ -282,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BECE28711B3FD09400D65314 /* Build configuration list for PBXNativeTarget "subPhoto" */ = {
+		BECE28711B3FD09400D65314 /* Build configuration list for PBXNativeTarget "swiftLearn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BECE28721B3FD09400D65314 /* Debug */,

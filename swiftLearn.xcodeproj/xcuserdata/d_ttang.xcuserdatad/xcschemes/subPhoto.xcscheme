@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BECE285E1B3FD09400D65314"
-               BuildableName = "subPhoto.app"
-               BlueprintName = "subPhoto"
-               ReferencedContainer = "container:subPhoto.xcodeproj">
+               BuildableName = "swiftLearn.app"
+               BlueprintName = "swiftLearn"
+               ReferencedContainer = "container:swiftLearn.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECE285E1B3FD09400D65314"
-            BuildableName = "subPhoto.app"
-            BlueprintName = "subPhoto"
-            ReferencedContainer = "container:subPhoto.xcodeproj">
+            BuildableName = "swiftLearn.app"
+            BlueprintName = "swiftLearn"
+            ReferencedContainer = "container:swiftLearn.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECE285E1B3FD09400D65314"
-            BuildableName = "subPhoto.app"
-            BlueprintName = "subPhoto"
-            ReferencedContainer = "container:subPhoto.xcodeproj">
+            BuildableName = "swiftLearn.app"
+            BlueprintName = "swiftLearn"
+            ReferencedContainer = "container:swiftLearn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECE285E1B3FD09400D65314"
-            BuildableName = "subPhoto.app"
-            BlueprintName = "subPhoto"
-            ReferencedContainer = "container:subPhoto.xcodeproj">
+            BuildableName = "swiftLearn.app"
+            BlueprintName = "swiftLearn"
+            ReferencedContainer = "container:swiftLearn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
