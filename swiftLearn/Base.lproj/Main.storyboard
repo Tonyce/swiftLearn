@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="subPhoto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swiftLearn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -156,7 +156,7 @@
         <!--Progress View Controller-->
         <scene sceneID="u5e-Mp-6yt">
             <objects>
-                <viewController id="chR-eU-LZc" customClass="MKProgressViewController" customModule="subPhoto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="chR-eU-LZc" customClass="MKProgressViewController" customModule="swiftLearn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OsH-Pe-LfJ"/>
                         <viewControllerLayoutGuide type="bottom" id="UmS-sm-MUH"/>

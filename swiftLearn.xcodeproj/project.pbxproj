@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE07A35C1B400640001D20D4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BE07A35B1B400640001D20D4 /* README.md */; };
 		BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */; };
 		BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28621B3FD09400D65314 /* AppDelegate.swift */; };
 		BECE28651B3FD09400D65314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28641B3FD09400D65314 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE07A35B1B400640001D20D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKProgressViewController.swift; sourceTree = "<group>"; };
 		BECE285F1B3FD09400D65314 /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECE28621B3FD09400D65314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		BECE28611B3FD09400D65314 /* swiftLearn */ = {
 			isa = PBXGroup;
 			children = (
+				BE07A35B1B400640001D20D4 /* README.md */,
 				BECE28621B3FD09400D65314 /* AppDelegate.swift */,
 				BECE28641B3FD09400D65314 /* ViewController.swift */,
 				BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */,
@@ -64,8 +67,7 @@
 				BECE286B1B3FD09400D65314 /* LaunchScreen.storyboard */,
 				BECE286E1B3FD09400D65314 /* Info.plist */,
 			);
-			name = swiftLearn;
-			path = subPhoto;
+			path = swiftLearn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +142,7 @@
 			files = (
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
 				BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */,
+				BE07A35C1B400640001D20D4 /* README.md in Sources */,
 				BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = subPhoto/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/swiftLearn/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iweekapi.subPhoto;
@@ -263,7 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = subPhoto/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/swiftLearn/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iweekapi.subPhoto;
