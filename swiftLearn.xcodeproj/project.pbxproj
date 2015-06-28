@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE043D671B4026DC000824FE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE043D661B4026DC000824FE /* TimerViewController.swift */; };
 		BE07A35C1B400640001D20D4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BE07A35B1B400640001D20D4 /* README.md */; };
 		BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */; };
 		BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28621B3FD09400D65314 /* AppDelegate.swift */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE043D651B4021AE000824FE /* learn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = learn.playground; sourceTree = "<group>"; };
+		BE043D661B4026DC000824FE /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		BE07A35B1B400640001D20D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKProgressViewController.swift; sourceTree = "<group>"; };
 		BECE285F1B3FD09400D65314 /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,10 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				BE07A35B1B400640001D20D4 /* README.md */,
+				BE043D651B4021AE000824FE /* learn.playground */,
 				BECE28621B3FD09400D65314 /* AppDelegate.swift */,
 				BECE28641B3FD09400D65314 /* ViewController.swift */,
 				BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */,
 				BECE28661B3FD09400D65314 /* Main.storyboard */,
+				BE043D661B4026DC000824FE /* TimerViewController.swift */,
 				BECE28691B3FD09400D65314 /* Assets.xcassets */,
 				BECE286B1B3FD09400D65314 /* LaunchScreen.storyboard */,
 				BECE286E1B3FD09400D65314 /* Info.plist */,
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE043D671B4026DC000824FE /* TimerViewController.swift in Sources */,
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
 				BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */,
 				BE07A35C1B400640001D20D4 /* README.md in Sources */,

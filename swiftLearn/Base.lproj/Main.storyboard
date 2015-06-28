@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="chR-eU-LZc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="s3s-EC-nQr">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -171,7 +170,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gb4-8H-ua2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="504" y="399"/>
+            <point key="canvasLocation" x="198" y="300"/>
+        </scene>
+        <!--Timer View Controller-->
+        <scene sceneID="rtU-Qf-iq7">
+            <objects>
+                <viewController id="s3s-EC-nQr" customClass="TimerViewController" customModule="swiftLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UGg-uf-PDQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="zfj-DN-yBp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ihy-bB-xNX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qc-2Y-LBi">
+                                <rect key="frame" x="87" y="39" width="147" height="114"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Dh-wv-btw">
+                                <rect key="frame" x="102" y="203" width="116" height="45"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.17250404201443981" green="1" blue="0.26812733226358232" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="start"/>
+                                <connections>
+                                    <action selector="startAction:" destination="s3s-EC-nQr" eventType="touchUpInside" id="eqR-Q4-NRn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljr-Iu-Oay">
+                                <rect key="frame" x="102" y="261" width="116" height="45"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.172504042" green="1" blue="0.26812733230000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="stop"/>
+                                <connections>
+                                    <action selector="stopAction:" destination="s3s-EC-nQr" eventType="touchUpInside" id="nSo-4i-1SA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1J-8S-SLH">
+                                <rect key="frame" x="102" y="335" width="116" height="45"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.172504042" green="1" blue="0.26812733230000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="back zero"/>
+                                <connections>
+                                    <action selector="backZeroAction:" destination="s3s-EC-nQr" eventType="touchUpInside" id="PlO-wo-xn0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.4160609442" green="0.94446233319999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="backZeroBtn" destination="t1J-8S-SLH" id="moL-Lp-YUV"/>
+                        <outlet property="showLabel" destination="7qc-2Y-LBi" id="CvH-HQ-whX"/>
+                        <outlet property="startBtn" destination="2Dh-wv-btw" id="DDQ-OV-m2f"/>
+                        <outlet property="stopBtn" destination="Ljr-Iu-Oay" id="E0X-q9-wiZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kqf-Xn-3dL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647" y="320"/>
         </scene>
     </scenes>
     <resources>
