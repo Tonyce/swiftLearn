@@ -10,6 +10,11 @@
 		BE043D671B4026DC000824FE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE043D661B4026DC000824FE /* TimerViewController.swift */; };
 		BE07A35C1B400640001D20D4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BE07A35B1B400640001D20D4 /* README.md */; };
 		BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */; };
+		BE63D6CF1B44423200E317F9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6CE1B44423200E317F9 /* FirstViewController.swift */; };
+		BE63D6D11B44424100E317F9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D01B44424100E317F9 /* SecondViewController.swift */; };
+		BE63D6D31B44443500E317F9 /* TranstionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */; };
+		BE63D6D51B44446600E317F9 /* ExtendTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D41B44446600E317F9 /* ExtendTransition.swift */; };
+		BE63D6D71B44448000E317F9 /* ScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D61B44448000E317F9 /* ScaleTransition.swift */; };
 		BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28621B3FD09400D65314 /* AppDelegate.swift */; };
 		BECE28651B3FD09400D65314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28641B3FD09400D65314 /* ViewController.swift */; };
 		BECE28681B3FD09400D65314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE28661B3FD09400D65314 /* Main.storyboard */; };
@@ -22,6 +27,11 @@
 		BE043D661B4026DC000824FE /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		BE07A35B1B400640001D20D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE4BDC1D1B40003500D35479 /* MKProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKProgressViewController.swift; sourceTree = "<group>"; };
+		BE63D6CE1B44423200E317F9 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BE63D6D01B44424100E317F9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranstionDelegate.swift; sourceTree = "<group>"; };
+		BE63D6D41B44446600E317F9 /* ExtendTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendTransition.swift; sourceTree = "<group>"; };
+		BE63D6D61B44448000E317F9 /* ScaleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleTransition.swift; sourceTree = "<group>"; };
 		BECE285F1B3FD09400D65314 /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECE28621B3FD09400D65314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BECE28641B3FD09400D65314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,9 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE63D6CD1B44421200E317F9 /* MKTrans */ = {
+			isa = PBXGroup;
+			children = (
+				BE63D6CE1B44423200E317F9 /* FirstViewController.swift */,
+				BE63D6D01B44424100E317F9 /* SecondViewController.swift */,
+				BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */,
+				BE63D6D41B44446600E317F9 /* ExtendTransition.swift */,
+				BE63D6D61B44448000E317F9 /* ScaleTransition.swift */,
+			);
+			name = MKTrans;
+			sourceTree = "<group>";
+		};
 		BECE28561B3FD09400D65314 = {
 			isa = PBXGroup;
 			children = (
+				BE63D6CD1B44421200E317F9 /* MKTrans */,
 				BECE28611B3FD09400D65314 /* swiftLearn */,
 				BECE28601B3FD09400D65314 /* Products */,
 			);
@@ -148,8 +171,13 @@
 				BE043D671B4026DC000824FE /* TimerViewController.swift in Sources */,
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
 				BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */,
+				BE63D6CF1B44423200E317F9 /* FirstViewController.swift in Sources */,
+				BE63D6D11B44424100E317F9 /* SecondViewController.swift in Sources */,
+				BE63D6D51B44446600E317F9 /* ExtendTransition.swift in Sources */,
 				BE07A35C1B400640001D20D4 /* README.md in Sources */,
+				BE63D6D71B44448000E317F9 /* ScaleTransition.swift in Sources */,
 				BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */,
+				BE63D6D31B44443500E317F9 /* TranstionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

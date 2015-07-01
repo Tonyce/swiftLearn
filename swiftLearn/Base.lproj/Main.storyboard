@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="s3s-EC-nQr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eh8-Em-6Bn">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -233,6 +234,100 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kqf-Xn-3dL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="647" y="320"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hxg-zD-kc8">
+            <objects>
+                <viewController id="R1E-5x-QNE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NKX-6n-o7j"/>
+                        <viewControllerLayoutGuide type="bottom" id="e7a-K4-uos"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lFv-PB-Afc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5Ul-95-jqS">
+                                <rect key="frame" x="100" y="45" width="121" height="29"/>
+                                <animations/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AWh-0P-1BF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979" y="317"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="m0G-5d-Tcc">
+            <objects>
+                <viewController storyboardIdentifier="FirstViewController" id="eh8-Em-6Bn" customClass="FirstViewController" customModule="swiftLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D25-pG-Kyp"/>
+                        <viewControllerLayoutGuide type="bottom" id="iL9-bZ-kQh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q3w-JU-svE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3u-OQ-sS7">
+                                <rect key="frame" x="110" y="448" width="100" height="100"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.46420288790000003" green="1" blue="0.6674289846" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="goNext:" destination="eh8-Em-6Bn" eventType="touchUpInside" id="FQR-y0-Ugy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.95472290410000005" green="0.60854952120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="btn" destination="X3u-OQ-sS7" id="0Sf-Pr-6cG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCE-Px-Zy5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="736" y="1095"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="XhE-SO-NBr">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="JUD-dJ-J5n" customClass="SecondViewController" customModule="swiftLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="naI-dA-pSM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jl0-Hr-lSQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4CS-Tt-WbQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxY-3I-dIB">
+                                <rect key="frame" x="137" y="159" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.55262687669999999" green="0.60977537790000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="JUD-dJ-J5n" eventType="touchUpInside" id="6M9-Sn-eJV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e5g-wc-dOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118" y="1095"/>
         </scene>
     </scenes>
     <resources>
