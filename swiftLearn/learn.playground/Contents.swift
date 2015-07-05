@@ -1,6 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+import CoreFoundation
 
 var str = "Hello, playground"
 //
@@ -34,3 +35,6 @@ var timer = NSTimer.scheduledTimerWithTimeInterval(10,
     repeats: false
 )
 timer.fire()
+
+CFAbsoluteTimeGetCurrent()
+CFTimeInterval()

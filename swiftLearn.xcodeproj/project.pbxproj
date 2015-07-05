@@ -15,11 +15,14 @@
 		BE63D6D31B44443500E317F9 /* TranstionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */; };
 		BE63D6D51B44446600E317F9 /* ExtendTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D41B44446600E317F9 /* ExtendTransition.swift */; };
 		BE63D6D71B44448000E317F9 /* ScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D61B44448000E317F9 /* ScaleTransition.swift */; };
+		BEC30C0A1B47DE2B007B323F /* StreamSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC30C091B47DE2B007B323F /* StreamSocketViewController.swift */; };
+		BEC30C0C1B481455007B323F /* CFSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC30C0B1B481455007B323F /* CFSocketViewController.swift */; };
 		BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28621B3FD09400D65314 /* AppDelegate.swift */; };
 		BECE28651B3FD09400D65314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28641B3FD09400D65314 /* ViewController.swift */; };
 		BECE28681B3FD09400D65314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE28661B3FD09400D65314 /* Main.storyboard */; };
 		BECE286A1B3FD09400D65314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECE28691B3FD09400D65314 /* Assets.xcassets */; };
 		BECE286D1B3FD09400D65314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE286B1B3FD09400D65314 /* LaunchScreen.storyboard */; };
+		BEFDF9751B4945230021A592 /* CircleAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,8 @@
 		BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranstionDelegate.swift; sourceTree = "<group>"; };
 		BE63D6D41B44446600E317F9 /* ExtendTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendTransition.swift; sourceTree = "<group>"; };
 		BE63D6D61B44448000E317F9 /* ScaleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleTransition.swift; sourceTree = "<group>"; };
+		BEC30C091B47DE2B007B323F /* StreamSocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamSocketViewController.swift; sourceTree = "<group>"; };
+		BEC30C0B1B481455007B323F /* CFSocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFSocketViewController.swift; sourceTree = "<group>"; };
 		BECE285F1B3FD09400D65314 /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECE28621B3FD09400D65314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BECE28641B3FD09400D65314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		BECE28691B3FD09400D65314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECE286C1B3FD09400D65314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BECE286E1B3FD09400D65314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +70,20 @@
 			name = MKTrans;
 			sourceTree = "<group>";
 		};
+		BEC30C081B47DDEA007B323F /* swiftStream */ = {
+			isa = PBXGroup;
+			children = (
+				BEC30C091B47DE2B007B323F /* StreamSocketViewController.swift */,
+				BEC30C0B1B481455007B323F /* CFSocketViewController.swift */,
+			);
+			name = swiftStream;
+			sourceTree = "<group>";
+		};
 		BECE28561B3FD09400D65314 = {
 			isa = PBXGroup;
 			children = (
+				BEFDF9731B4945030021A592 /* circleLearn */,
+				BEC30C081B47DDEA007B323F /* swiftStream */,
 				BE63D6CD1B44421200E317F9 /* MKTrans */,
 				BECE28611B3FD09400D65314 /* swiftLearn */,
 				BECE28601B3FD09400D65314 /* Products */,
@@ -96,6 +113,14 @@
 				BECE286E1B3FD09400D65314 /* Info.plist */,
 			);
 			path = swiftLearn;
+			sourceTree = "<group>";
+		};
+		BEFDF9731B4945030021A592 /* circleLearn */ = {
+			isa = PBXGroup;
+			children = (
+				BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */,
+			);
+			name = circleLearn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE043D671B4026DC000824FE /* TimerViewController.swift in Sources */,
+				BEFDF9751B4945230021A592 /* CircleAnimationViewController.swift in Sources */,
+				BEC30C0A1B47DE2B007B323F /* StreamSocketViewController.swift in Sources */,
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
 				BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */,
+				BEC30C0C1B481455007B323F /* CFSocketViewController.swift in Sources */,
 				BE63D6CF1B44423200E317F9 /* FirstViewController.swift in Sources */,
 				BE63D6D11B44424100E317F9 /* SecondViewController.swift in Sources */,
 				BE63D6D51B44446600E317F9 /* ExtendTransition.swift in Sources */,
