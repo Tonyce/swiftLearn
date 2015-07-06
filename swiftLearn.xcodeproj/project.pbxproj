@@ -15,6 +15,9 @@
 		BE63D6D31B44443500E317F9 /* TranstionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */; };
 		BE63D6D51B44446600E317F9 /* ExtendTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D41B44446600E317F9 /* ExtendTransition.swift */; };
 		BE63D6D71B44448000E317F9 /* ScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D61B44448000E317F9 /* ScaleTransition.swift */; };
+		BEA475781B4ACCB300059628 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA475771B4ACCB300059628 /* AddViewController.swift */; };
+		BEA4757A1B4ACDC100059628 /* BubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA475791B4ACDC100059628 /* BubbleViewController.swift */; };
+		BEA4757C1B4ACF1E00059628 /* BubbleTrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4757B1B4ACF1E00059628 /* BubbleTrans.swift */; };
 		BEC30C0A1B47DE2B007B323F /* StreamSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC30C091B47DE2B007B323F /* StreamSocketViewController.swift */; };
 		BEC30C0C1B481455007B323F /* CFSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC30C0B1B481455007B323F /* CFSocketViewController.swift */; };
 		BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE28621B3FD09400D65314 /* AppDelegate.swift */; };
@@ -35,6 +38,9 @@
 		BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranstionDelegate.swift; sourceTree = "<group>"; };
 		BE63D6D41B44446600E317F9 /* ExtendTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendTransition.swift; sourceTree = "<group>"; };
 		BE63D6D61B44448000E317F9 /* ScaleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleTransition.swift; sourceTree = "<group>"; };
+		BEA475771B4ACCB300059628 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BEA475791B4ACDC100059628 /* BubbleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleViewController.swift; sourceTree = "<group>"; };
+		BEA4757B1B4ACF1E00059628 /* BubbleTrans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTrans.swift; sourceTree = "<group>"; };
 		BEC30C091B47DE2B007B323F /* StreamSocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamSocketViewController.swift; sourceTree = "<group>"; };
 		BEC30C0B1B481455007B323F /* CFSocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFSocketViewController.swift; sourceTree = "<group>"; };
 		BECE285F1B3FD09400D65314 /* swiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +76,16 @@
 			name = MKTrans;
 			sourceTree = "<group>";
 		};
+		BEA475761B4ACBEE00059628 /* BubbleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				BEA475771B4ACCB300059628 /* AddViewController.swift */,
+				BEA475791B4ACDC100059628 /* BubbleViewController.swift */,
+				BEA4757B1B4ACF1E00059628 /* BubbleTrans.swift */,
+			);
+			name = BubbleTransition;
+			sourceTree = "<group>";
+		};
 		BEC30C081B47DDEA007B323F /* swiftStream */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +98,7 @@
 		BECE28561B3FD09400D65314 = {
 			isa = PBXGroup;
 			children = (
+				BEA475761B4ACBEE00059628 /* BubbleTransition */,
 				BEFDF9731B4945030021A592 /* circleLearn */,
 				BEC30C081B47DDEA007B323F /* swiftStream */,
 				BE63D6CD1B44421200E317F9 /* MKTrans */,
@@ -193,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA4757C1B4ACF1E00059628 /* BubbleTrans.swift in Sources */,
 				BE043D671B4026DC000824FE /* TimerViewController.swift in Sources */,
 				BEFDF9751B4945230021A592 /* CircleAnimationViewController.swift in Sources */,
+				BEA475781B4ACCB300059628 /* AddViewController.swift in Sources */,
 				BEC30C0A1B47DE2B007B323F /* StreamSocketViewController.swift in Sources */,
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
 				BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */,
@@ -205,6 +224,7 @@
 				BE07A35C1B400640001D20D4 /* README.md in Sources */,
 				BE63D6D71B44448000E317F9 /* ScaleTransition.swift in Sources */,
 				BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */,
+				BEA4757A1B4ACDC100059628 /* BubbleViewController.swift in Sources */,
 				BE63D6D31B44443500E317F9 /* TranstionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
