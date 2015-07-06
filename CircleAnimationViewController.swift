@@ -37,6 +37,7 @@ class CircleAnimationViewController: UIViewController {
     }
     
     func randomInRange(range: Range<Int>) -> Int {
+        
         let count = UInt32(range.endIndex - range.startIndex)
         return  Int(arc4random_uniform(count)) + range.startIndex
     }
@@ -68,6 +69,7 @@ class StarView: UIView  {
         progressLayer.path = UIBezierPath(ovalInRect: self.bounds).CGPath
         self.layer.addSublayer(progressLayer)
         
+        passesLabel.backgroundColor = UIColor.blueColor()
         passesLabel.font = UIFont.systemFontOfSize(15)
         passesLabel.text = "PASSES"
         passesLabel.textColor = UIColor.whiteColor()
@@ -82,6 +84,8 @@ class StarView: UIView  {
         let tensDigit:Int = num/10
         let singleDigit:Int = num%10
         
+        print(tensDigit)
+        print(singleDigit)
         tensSliderContainer.scrollToNum(tensDigit)
         singleSliderContainer.scrollToNum(singleDigit)
         
