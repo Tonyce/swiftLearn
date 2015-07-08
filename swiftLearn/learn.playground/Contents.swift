@@ -38,3 +38,7 @@ timer.fire()
 
 CFAbsoluteTimeGetCurrent()
 CFTimeInterval()
+
+var a: CGFloat = 2.0
+var b: CGFloat = 3.2
+a * b

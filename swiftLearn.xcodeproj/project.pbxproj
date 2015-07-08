@@ -15,6 +15,9 @@
 		BE63D6D31B44443500E317F9 /* TranstionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */; };
 		BE63D6D51B44446600E317F9 /* ExtendTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D41B44446600E317F9 /* ExtendTransition.swift */; };
 		BE63D6D71B44448000E317F9 /* ScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63D6D61B44448000E317F9 /* ScaleTransition.swift */; };
+		BE768EEA1B4D29840032B5CE /* CustomViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768EE91B4D29840032B5CE /* CustomViewViewController.swift */; };
+		BE768EEC1B4D29D10032B5CE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768EEB1B4D29D10032B5CE /* CustomView.swift */; };
+		BE768EF01B4D406E0032B5CE /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768EEF1B4D406E0032B5CE /* CustomImageView.swift */; };
 		BEA475781B4ACCB300059628 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA475771B4ACCB300059628 /* AddViewController.swift */; };
 		BEA4757A1B4ACDC100059628 /* BubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA475791B4ACDC100059628 /* BubbleViewController.swift */; };
 		BEA4757C1B4ACF1E00059628 /* BubbleTrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4757B1B4ACF1E00059628 /* BubbleTrans.swift */; };
@@ -25,6 +28,8 @@
 		BECE28681B3FD09400D65314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE28661B3FD09400D65314 /* Main.storyboard */; };
 		BECE286A1B3FD09400D65314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECE28691B3FD09400D65314 /* Assets.xcassets */; };
 		BECE286D1B3FD09400D65314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE286B1B3FD09400D65314 /* LaunchScreen.storyboard */; };
+		BEEE07531B4BB24C0015E752 /* PlistPersistenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE07521B4BB24C0015E752 /* PlistPersistenceViewController.swift */; };
+		BEEE07561B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */; };
 		BEFDF9751B4945230021A592 /* CircleAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +43,9 @@
 		BE63D6D21B44443500E317F9 /* TranstionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranstionDelegate.swift; sourceTree = "<group>"; };
 		BE63D6D41B44446600E317F9 /* ExtendTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendTransition.swift; sourceTree = "<group>"; };
 		BE63D6D61B44448000E317F9 /* ScaleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleTransition.swift; sourceTree = "<group>"; };
+		BE768EE91B4D29840032B5CE /* CustomViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewViewController.swift; sourceTree = "<group>"; };
+		BE768EEB1B4D29D10032B5CE /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		BE768EEF1B4D406E0032B5CE /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		BEA475771B4ACCB300059628 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		BEA475791B4ACDC100059628 /* BubbleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleViewController.swift; sourceTree = "<group>"; };
 		BEA4757B1B4ACF1E00059628 /* BubbleTrans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTrans.swift; sourceTree = "<group>"; };
@@ -50,6 +58,8 @@
 		BECE28691B3FD09400D65314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECE286C1B3FD09400D65314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BECE286E1B3FD09400D65314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEE07521B4BB24C0015E752 /* PlistPersistenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistPersistenceViewController.swift; sourceTree = "<group>"; };
+		BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainPersistentceViewController.swift; sourceTree = "<group>"; };
 		BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +86,16 @@
 			name = MKTrans;
 			sourceTree = "<group>";
 		};
+		BE768EE81B4D29610032B5CE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				BE768EE91B4D29840032B5CE /* CustomViewViewController.swift */,
+				BE768EEB1B4D29D10032B5CE /* CustomView.swift */,
+				BE768EEF1B4D406E0032B5CE /* CustomImageView.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
 		BEA475761B4ACBEE00059628 /* BubbleTransition */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +118,9 @@
 		BECE28561B3FD09400D65314 = {
 			isa = PBXGroup;
 			children = (
+				BE768EE81B4D29610032B5CE /* CustomView */,
+				BEEE07541B4BB7DB0015E752 /* KeyChainPersistentce */,
+				BEEE07511B4BB2100015E752 /* plistPersistence */,
 				BEA475761B4ACBEE00059628 /* BubbleTransition */,
 				BEFDF9731B4945030021A592 /* circleLearn */,
 				BEC30C081B47DDEA007B323F /* swiftStream */,
@@ -130,6 +153,22 @@
 				BECE286E1B3FD09400D65314 /* Info.plist */,
 			);
 			path = swiftLearn;
+			sourceTree = "<group>";
+		};
+		BEEE07511B4BB2100015E752 /* plistPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE07521B4BB24C0015E752 /* PlistPersistenceViewController.swift */,
+			);
+			name = plistPersistence;
+			sourceTree = "<group>";
+		};
+		BEEE07541B4BB7DB0015E752 /* KeyChainPersistentce */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */,
+			);
+			name = KeyChainPersistentce;
 			sourceTree = "<group>";
 		};
 		BEFDF9731B4945030021A592 /* circleLearn */ = {
@@ -213,10 +252,15 @@
 				BEA4757C1B4ACF1E00059628 /* BubbleTrans.swift in Sources */,
 				BE043D671B4026DC000824FE /* TimerViewController.swift in Sources */,
 				BEFDF9751B4945230021A592 /* CircleAnimationViewController.swift in Sources */,
+				BEEE07531B4BB24C0015E752 /* PlistPersistenceViewController.swift in Sources */,
 				BEA475781B4ACCB300059628 /* AddViewController.swift in Sources */,
+				BE768EEC1B4D29D10032B5CE /* CustomView.swift in Sources */,
 				BEC30C0A1B47DE2B007B323F /* StreamSocketViewController.swift in Sources */,
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
+				BEEE07561B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift in Sources */,
 				BE4BDC1E1B40003500D35479 /* MKProgressViewController.swift in Sources */,
+				BE768EF01B4D406E0032B5CE /* CustomImageView.swift in Sources */,
+				BE768EEA1B4D29840032B5CE /* CustomViewViewController.swift in Sources */,
 				BEC30C0C1B481455007B323F /* CFSocketViewController.swift in Sources */,
 				BE63D6CF1B44423200E317F9 /* FirstViewController.swift in Sources */,
 				BE63D6D11B44424100E317F9 /* SecondViewController.swift in Sources */,
