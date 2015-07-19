@@ -27,9 +27,13 @@ class AutoLayoutAnimationViewController: UIViewController {
 
     @IBAction func animation(sender: AnyObject) {
         
+        UIView.animateWithDuration(2, animations: {
+            self.topViewHeight.constant += 100
+            self.view.layoutIfNeeded()
+        })
         
-        topViewHeight.constant += 10
-        view.layoutIfNeeded()
+
+//        view.layoutIfNeeded()
     }
     /*
     // MARK: - Navigation
