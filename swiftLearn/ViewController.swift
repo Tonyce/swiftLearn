@@ -113,7 +113,7 @@ extension UIImage{
         UIGraphicsBeginImageContext(smallBounds.size)
         let context: CGContextRef  = UIGraphicsGetCurrentContext()
         CGContextDrawImage(context, smallBounds, subImageRef)
-        let smallImage:UIImage = UIImage(CGImage: subImageRef)
+        let smallImage:UIImage = UIImage(CGImage: subImageRef!)
         UIGraphicsEndImageContext()
         
         return smallImage

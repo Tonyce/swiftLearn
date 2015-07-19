@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ASG-KB-TWe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8152.3" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1FE-Wv-BFs">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -151,7 +151,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="118" y="300"/>
+            <point key="canvasLocation" x="124" y="179"/>
         </scene>
         <!--Progress View Controller-->
         <scene sceneID="u5e-Mp-6yt">
@@ -542,6 +542,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UAu-eQ-8Kz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="736" y="3626"/>
+        </scene>
+        <!--Auto Layout Animation View Controller-->
+        <scene sceneID="WE8-9i-NVN">
+            <objects>
+                <viewController id="1FE-Wv-BFs" customClass="AutoLayoutAnimationViewController" customModule="swiftLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iHu-67-j1l"/>
+                        <viewControllerLayoutGuide type="bottom" id="ya5-j3-KEq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Be2-hc-Srg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xst-KB-ceB">
+                                <rect key="frame" x="40" y="80" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.68776341184128476" blue="0.28052044575233126" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Svk-W5-D55"/>
+                                    <constraint firstAttribute="width" constant="240" id="oSD-sp-stM"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMS-Mh-16H">
+                                <rect key="frame" x="137" y="228" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="K8h-tR-3UB"/>
+                                    <constraint firstAttribute="width" constant="46" id="RcE-5B-9va"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="animation:" destination="1FE-Wv-BFs" eventType="touchUpInside" id="tdM-Jf-xoZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VMS-Mh-16H" firstAttribute="top" secondItem="Xst-KB-ceB" secondAttribute="bottom" constant="20" id="u2m-1g-JjM"/>
+                            <constraint firstItem="Xst-KB-ceB" firstAttribute="top" secondItem="iHu-67-j1l" secondAttribute="bottom" constant="60" id="vB7-Ml-mbx"/>
+                            <constraint firstItem="VMS-Mh-16H" firstAttribute="centerX" secondItem="Be2-hc-Srg" secondAttribute="centerX" id="z2h-op-5li"/>
+                            <constraint firstItem="Xst-KB-ceB" firstAttribute="centerX" secondItem="Be2-hc-Srg" secondAttribute="centerX" id="zLP-Ip-Lob"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="topView" destination="Xst-KB-ceB" id="hjv-Y3-cpV"/>
+                        <outlet property="topViewHeight" destination="Svk-W5-D55" id="xkm-kx-SD2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWh-7P-Eib" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="4290"/>
         </scene>
         <!--Bubble View Controller-->
         <scene sceneID="Isz-rH-mpo">

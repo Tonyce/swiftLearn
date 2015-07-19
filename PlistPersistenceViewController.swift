@@ -30,8 +30,14 @@ class PlistPersistenceViewController: UIViewController {
         // Do any additional setup after loading the view.
         let filename:NSString = self.filePath("properties.plist")
         if NSFileManager.defaultManager().fileExistsAtPath(filename as String) {
-            let data:NSArray = NSArray(contentsOfFile: filename as String)!
-            textFiled.text = data.objectAtIndex(0) as? String
+//            let data:NSArray = NSArray(contentsOfFile: filename as String)!
+            if let fileData = NSMutableDictionary(contentsOfFile: filename as String) {
+                let data: NSMutableDictionary = fileData
+                print(data)
+            }
+
+
+//            textFiled.text = data.objectAtIndex(0) as? String
         }
     }
 
@@ -44,9 +50,9 @@ class PlistPersistenceViewController: UIViewController {
         print("click")
         let filename:NSString = self.filePath("properties.plist")
         print(filename)
-        let data:NSMutableArray = NSMutableArray()
+        let data:NSMutableDictionary = NSMutableDictionary()
         
-        data.addObject(textFiled.text!)
+        data.setObject(["name": "black", "color": "color"], forKey: "color")
         data.writeToFile(filename as String, atomically: true)
     }
     

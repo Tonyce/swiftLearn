@@ -28,6 +28,7 @@
 		BECE28681B3FD09400D65314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE28661B3FD09400D65314 /* Main.storyboard */; };
 		BECE286A1B3FD09400D65314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECE28691B3FD09400D65314 /* Assets.xcassets */; };
 		BECE286D1B3FD09400D65314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECE286B1B3FD09400D65314 /* LaunchScreen.storyboard */; };
+		BEE23AAB1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE23AAA1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift */; };
 		BEEE07531B4BB24C0015E752 /* PlistPersistenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE07521B4BB24C0015E752 /* PlistPersistenceViewController.swift */; };
 		BEEE07561B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */; };
 		BEFDF9751B4945230021A592 /* CircleAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */; };
@@ -58,6 +59,7 @@
 		BECE28691B3FD09400D65314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECE286C1B3FD09400D65314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BECE286E1B3FD09400D65314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE23AAA1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutAnimationViewController.swift; sourceTree = "<group>"; };
 		BEEE07521B4BB24C0015E752 /* PlistPersistenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistPersistenceViewController.swift; sourceTree = "<group>"; };
 		BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainPersistentceViewController.swift; sourceTree = "<group>"; };
 		BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnimationViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		BECE28561B3FD09400D65314 = {
 			isa = PBXGroup;
 			children = (
+				BEE23AA91B5C01CC00E714FC /* animationWithAutoLayout */,
 				BE768EE81B4D29610032B5CE /* CustomView */,
 				BEEE07541B4BB7DB0015E752 /* KeyChainPersistentce */,
 				BEEE07511B4BB2100015E752 /* plistPersistence */,
@@ -153,6 +156,14 @@
 				BECE286E1B3FD09400D65314 /* Info.plist */,
 			);
 			path = swiftLearn;
+			sourceTree = "<group>";
+		};
+		BEE23AA91B5C01CC00E714FC /* animationWithAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BEE23AAA1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift */,
+			);
+			name = animationWithAutoLayout;
 			sourceTree = "<group>";
 		};
 		BEEE07511B4BB2100015E752 /* plistPersistence */ = {
@@ -269,6 +280,7 @@
 				BE63D6D71B44448000E317F9 /* ScaleTransition.swift in Sources */,
 				BECE28631B3FD09400D65314 /* AppDelegate.swift in Sources */,
 				BEA4757A1B4ACDC100059628 /* BubbleViewController.swift in Sources */,
+				BEE23AAB1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift in Sources */,
 				BE63D6D31B44443500E317F9 /* TranstionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
