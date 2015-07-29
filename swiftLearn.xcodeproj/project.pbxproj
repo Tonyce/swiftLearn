@@ -31,6 +31,7 @@
 		BEE23AAB1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE23AAA1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift */; };
 		BEEE07531B4BB24C0015E752 /* PlistPersistenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE07521B4BB24C0015E752 /* PlistPersistenceViewController.swift */; };
 		BEEE07561B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */; };
+		BEF4BFA11B693F4E0040AD88 /* AlertLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF4BFA01B693F4E0040AD88 /* AlertLearnViewController.swift */; };
 		BEFDF9751B4945230021A592 /* CircleAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		BEE23AAA1B5C03F900E714FC /* AutoLayoutAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutAnimationViewController.swift; sourceTree = "<group>"; };
 		BEEE07521B4BB24C0015E752 /* PlistPersistenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistPersistenceViewController.swift; sourceTree = "<group>"; };
 		BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainPersistentceViewController.swift; sourceTree = "<group>"; };
+		BEF4BFA01B693F4E0040AD88 /* AlertLearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertLearnViewController.swift; sourceTree = "<group>"; };
 		BEFDF9741B4945230021A592 /* CircleAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 		BECE28561B3FD09400D65314 = {
 			isa = PBXGroup;
 			children = (
+				BEF4BF9F1B693F340040AD88 /* alertLearn */,
 				BEE23AA91B5C01CC00E714FC /* animationWithAutoLayout */,
 				BE768EE81B4D29610032B5CE /* CustomView */,
 				BEEE07541B4BB7DB0015E752 /* KeyChainPersistentce */,
@@ -180,6 +183,14 @@
 				BEEE07551B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift */,
 			);
 			name = KeyChainPersistentce;
+			sourceTree = "<group>";
+		};
+		BEF4BF9F1B693F340040AD88 /* alertLearn */ = {
+			isa = PBXGroup;
+			children = (
+				BEF4BFA01B693F4E0040AD88 /* AlertLearnViewController.swift */,
+			);
+			name = alertLearn;
 			sourceTree = "<group>";
 		};
 		BEFDF9731B4945030021A592 /* circleLearn */ = {
@@ -266,6 +277,7 @@
 				BEEE07531B4BB24C0015E752 /* PlistPersistenceViewController.swift in Sources */,
 				BEA475781B4ACCB300059628 /* AddViewController.swift in Sources */,
 				BE768EEC1B4D29D10032B5CE /* CustomView.swift in Sources */,
+				BEF4BFA11B693F4E0040AD88 /* AlertLearnViewController.swift in Sources */,
 				BEC30C0A1B47DE2B007B323F /* StreamSocketViewController.swift in Sources */,
 				BECE28651B3FD09400D65314 /* ViewController.swift in Sources */,
 				BEEE07561B4BB7FF0015E752 /* KeyChainPersistentceViewController.swift in Sources */,
